@@ -31,25 +31,25 @@ ReactJS is JavaScript-based. You'll need to be familiar with a few things (other
 Let's now focus on what you need to learn at the minimum to start enjoying React in practice. These are foundational pieces, so make sure to give enough time and hands-on effort to truly understand the concepts.<br>
 There is a famous saying called "Think in React". These fundamental concepts should help you to develop that "Think in React" mindset.<br><br>
 
-**Understand what React is**<br>
+* **Understand what React is**<br>
 You should understand what is special about React.js. Why has React.js turned out to be a very powerful and widely used library? React is declarative, user-interface based library.<br>
 To know more and understand about React watch this introductory video [Programming with Mosh](https://www.youtube.com/watch?v=N3AkSS5hXMA)<br><br>
 
-**Learn how to set up your Development Environment**<br>
+* **Learn how to set up your Development Environment**<br>
 
 There are multiple ways to set up the development environment for React.js<br>
 But the most intelligent and quickest way to set up development environment is by using [Create React App](https://reactjs.org/docs/create-a-new-react-app.html)<br>
 Follow the steps given on its official website.<br><br><br>
 
 
-**Learn about JSX**<br>
+* **Learn about JSX**<br>
 
 ReactJS allows the user interface logic to couple with rendering logic, events, handling state changes, and more. This coupling is to encourage the practices of building self-contained components.<br>
 JSX is a syntax that looks like HTML but also has the power of JavaScript. This syntax helps developers write UI logic with all necessary elements like data fetching, conditions, looping, expressions, etc.<br>
 Note that you can write a ReactJS app without using JSX syntax – but the development experience will not be as good.<br><br><br>
 
 
-**Learn about React Components**<br>
+* **Learn about React Components**<br>
 
 A Component is considered as the core building blocks of a React application. It makes the task of building UIs much easier. Each component exists in the same space, but they work independently from one another and merge all in a parent component, which will be the final UI of your application.<br>
 Every React component have their own structure, methods as well as APIs. They can be reusable as per your need. For better understanding, consider the entire UI as a tree. Here, the root is the starting component, and each of the other pieces becomes branches, which are further divided into sub-branches.<br><br>
@@ -59,14 +59,14 @@ Every React component have their own structure, methods as well as APIs. They ca
 <br><br>
 
 In ReactJS, we have mainly two types of components. They are<br>
-* Function Based Components<br>
-* Class Based Components<br>
+- Function Based Components<br>
+- Class Based Components<br>
 <br>
 
 Learn more about the [React Components](https://www.geeksforgeeks.org/reactjs-components/)<br><br><br>
 
 
-**State in React**<br>
+* **State in React**<br>
 
 State is the data private to your component. We do not share states across components. The "state" of your component that you use to render information and modify information.<br>
 
@@ -74,19 +74,19 @@ Learn more about [React States](https://www.geeksforgeeks.org/reactjs-state-reac
 
 
 
-**Props in React**<br>
+* **Props in React**<br>
 
 In real-world programming, you will need the components to interact with each other. States are private to a component, but you need to pass the data between components. That's where Props come into the picture. Note that props are read-only.<br>
 Learn more about [React Props](https://www.geeksforgeeks.org/reactjs-props-set-1/)<br><br><br>
 
 
-**Lists and Keys in React**<br>
+* **Lists and Keys in React**<br>
 
 We use list to render a list of items in a React component. It is a very common task to list users, TODO items, and other things. We use the map() function to iterate over the list and render the results.<br>
 keys help identify what item from the list has changed to inform React to re-render. ReactJS gives a warning if you forget to mention the keys for a list.<br><br><br>
 
 
-**Life Cycle method in React**<br>
+* **Life Cycle method in React**<br>
 
 We discussed that the "state" is a component's private matter. State can be dynamic and might need modifications. We also need to perform resource cleanups when components are destroyed. ReactJs provides various life-cycle methods to detect the phases and take action.<br>
 If you are just getting started with ReactJS, you should understand [life cycle management for functional components](https://www.youtube.com/watch?v=abjeWy4sZiU).<br>
